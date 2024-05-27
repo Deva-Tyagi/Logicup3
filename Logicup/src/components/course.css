@@ -1,0 +1,42 @@
+.bg2{
+   background-image: url('./img/hero.jpg');
+   height: 70vh;
+}
+.input input{
+    width: 100%;
+    padding: 12px 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.input button{
+    width: 100%;
+    margin-left: 10px;
+    padding: 12px 20px;
+    border-radius: 15px;
+    background-color: rgb(111, 177, 111);
+}
+
+@media screen and (max-width:1000px){
+    .input input{
+        margin-left: 0px;
+        padding: 12px 15px;
+        margin-top: 5px;
+    }
+    .input button{
+        margin-left: 0px;
+        padding: 12px 15px;
+        margin-top: 5px;
+    }
+}
+
+.card2:hover{
+  scale: 1.05;
+  
+}
+.img3{
+    background-image: url('./img/image.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}

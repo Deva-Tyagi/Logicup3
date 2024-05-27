@@ -1,0 +1,10 @@
+.feedback{
+    width: 100%;
+    height: 140vh;
+    background-color:rgb(221, 236, 249);
+}
+@media screen and (max-width:1000px) {
+    .feedback{
+        height: 170vh;
+    }
+}
